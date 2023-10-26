@@ -36,8 +36,8 @@ C++ compiler (e.g., g++)
 ## Examples
 Here's a basic example of how to use this linked list implementation:
 
-Node* head = nullptr;
-insertAtHead(head, 1);
-display(head);
-insertAtHead(head, 2);
-display(head);
+ LinkedList list;
+ list.insertAtHead(1);
+ list.display();
+ list.insertAtHead(2);
+ list.display();
